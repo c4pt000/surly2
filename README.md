@@ -34,15 +34,24 @@ Config
 
 Config files are found and read by [rc](https://www.npmjs.com/package/rc). Check the "Configuration File Formats" section of the `rc` readme for more instructions. Any flag shown in `node cli.js --help` can be set in the options file.
 
-You probably just want to create `~/.surly2rc` and put something like this in it:
 
-    {
-        "brain": "/path/to/aiml/files",
-        "username": "someXMPPUser@example.com",
-        "password": "whatever"
-    }
+1. Create a config file.
 
+        ~/.surly2rc
 
+2. You can set defaults for any argument. See `xmpp --help` for a list of available arguments.
+
+        {
+            "brain": "/path/to/aiml/files",
+            "username": "surlybot@gmail.com",
+            "password": "hunter2",
+            "host": "talk.google.com",
+            "port": "5222"
+        }
+
+3. Then just run it - no arguments!
+
+        node xmpp.js
 Usage
 =====
 
