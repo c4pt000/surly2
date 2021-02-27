@@ -1,6 +1,12 @@
 Surly2
 ======
 
+node -v
+v14.15.4
+npm -v
+7.6.0
+
+
 > **surly** *adjective*
 >
 >  1. bad-tempered and unfriendly
